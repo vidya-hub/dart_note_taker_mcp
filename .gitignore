@@ -4,3 +4,4 @@
 adk_agent/dart_note_agent/__pycache__/
 adk_agent/notes/
 adk_agent/dart_note_agent/.env
+adk_agent/adk_venv/Lib/site-packages/

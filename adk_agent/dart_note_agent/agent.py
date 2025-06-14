@@ -8,9 +8,9 @@ root_agent = LlmAgent(
     tools=[
         MCPToolset(
             connection_params=StdioServerParameters(
-                command="D:\\Vidya_Projects\\dart_note_taker_mcp\\.fvm\\versions\\3.29.1\\bin\\dart",
+                command="D:\\Vidya_Projects\\dart_note_taker_mcp\\.fvm\\versions\\3.29.1\\bin\\dart.bat",
                 args=[
-                    "D:\\Vidya_Projects\\dart_note_taker_mcp\\dart_notes_mcp_server\\bin\\dart_notes_mcp.dart",
+                    "D:\\Vidya_Projects\\dart_note_taker_mcp\\dart_notes_mcp\\bin\\dart_notes_mcp.dart",
                 ],
             )
         )

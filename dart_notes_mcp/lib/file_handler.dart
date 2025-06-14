@@ -1,7 +1,8 @@
 import 'dart:io';
 
 class FileHandler {
-  static final String _basedir = '${Directory.current.path}/notes';
+  static final String _basedir =
+      'D:\\Vidya_Projects\\dart_note_taker_mcp\\dart_notes_mcp\\notes';
   static Future<String> read(String fileName) async {
     final file = File('$_basedir/$fileName');
     if (!await file.exists()) {
