@@ -3,7 +3,7 @@ from google.adk.tools.mcp_tool.mcp_toolset import MCPToolset, StdioServerParamet
 
 root_agent = LlmAgent(
     model="gemini-2.0-flash",
-    name="dart_agent",
+    name="dart_note_agent",
     instruction="Help to file read and write operations and summarize it.",
     tools=[
         MCPToolset(
